@@ -417,6 +417,9 @@ p {
 .address {
   margin-top: 20px;
 }
+.container-adress {
+  flex-grow: 1;
+}
 
 .list-address {
 }
@@ -830,6 +833,9 @@ textarea::placeholder {
   margin-left: 93px;
 }
 
+.subs {
+  display: block;
+}
 .btn {
   display: flex;
   align-items: center;
