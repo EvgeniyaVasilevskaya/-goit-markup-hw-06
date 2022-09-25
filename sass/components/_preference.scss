@@ -4,10 +4,10 @@
 
 .preference__item {
     width: 270px;
-}
 
-.preference__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .preference__box {

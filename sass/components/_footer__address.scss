@@ -1,8 +1,5 @@
 .footer__address {
     margin-top: 20px;
-}
-
-.footer__address {
     font-style: normal;
 }
 
@@ -15,16 +12,19 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--address-text-color);
-}
 
-.footer-address__link:hover,
-.footer-address__link:focus {
-    color: var(--accent-color);
-    transition: color 250ms var(--cubic-bezier);
-}
+    &--color {
+            color: var(--button-text-color);
+            transition: color 250ms var(--cubic-bezier);
+        }
 
-.footer-address__link--color {
-    color: var(--button-text-color);
-    transition: color 250ms var(--cubic-bezier);
-}
+    &:hover {
+        color: var(--accent-color);
+        transition: color 250ms var(--cubic-bezier);
+    }
 
+    &:focus {
+        color: var(--accent-color);
+        transition: color 250ms var(--cubic-bezier);
+    }
+}

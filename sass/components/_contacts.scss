@@ -10,12 +10,16 @@
     fill: var(--primary-text-color);
 
     transition: color 250ms var(--cubic-bezier);
-}
 
-.contacts__link:hover,
-.contacts__link:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);
+    &:hover {
+        color: var(--accent-color);
+        fill: var(--accent-color);
+    }
+
+    &:focus {
+        color: var(--accent-color);
+        fill: var(--accent-color);
+}
 }
 
 .contacts__icon {

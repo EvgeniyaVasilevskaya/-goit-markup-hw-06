@@ -35,10 +35,10 @@
     padding: 10px 28px;
 
     cursor: pointer;
-}
 
-.btn__icon {
-    fill: var(--button-text-color);
+    &__icon {
+        fill: var(--button-text-color);
+    }
 }
 
 .subs__input {
