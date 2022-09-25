@@ -37,6 +37,10 @@
     color: var(--accent-color);
   }
 
+  &--active {
+    color: var(--accent-color);
+  }
+  
   &.header__link--active::after {
     position: absolute;
     bottom: -1px;
